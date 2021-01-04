@@ -1,0 +1,33 @@
+name: Moria
+bio: |
+  Written by Moria, time-waster, gig-swimmer, and an automatic coin-operated food-dispensing machine (・ω<) 
+avatar: ./avatars/Moria.jpg
+social: [
+      {
+        name: mastodon,
+        url: https://flanintheface.com/@rosenkreuzer,
+      },
+      {
+        name: wordpress,
+        url: https://hystericalanduseless.club/,
+      },
+            {
+        name: spotify,
+        url: https://open.spotify.com/playlist/37i9dQZEVXcBYolMmEdLr9?si=WZ8PWeYAToKBTTqf2rmC_w,
+      },
+            {
+        name: gamesocial,
+        url: https://rawg.io/@rosenkreuzer,
+      },
+            {
+        name: rss,
+        url: https://weirdfishes.today/atom.xml,
+      },
+    ]
+featured: true
+
+
+
+
+
+
