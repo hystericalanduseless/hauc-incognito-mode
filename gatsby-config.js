@@ -1,3 +1,5 @@
+const newLocal = "HAUC";
+
 module.exports = {
     siteMetadata: {
         title: "hysterical and useless club",
@@ -73,7 +75,7 @@ module.exports = {
         resolve: "gatsby-source-rss-feed",
         options: {
           url: "https://hystericalanduseless.icu/rss.xml",
-          name: "hysterical and useless club (incognito mode)",
+          name: newLocal,
           // Optional
           // Read parser document: https://github.com/bobby-brennan/rss-parser#readme
           parserOption: {
