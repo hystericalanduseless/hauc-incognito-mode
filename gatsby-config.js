@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: "hysterical and useless club",
         name: "HAUC (incognito mode)",
-        siteUrl: "https://weirdfishes.today/",
+        siteUrl: "https://hystericalanduseless.icu/",
         description: "A bunch of semi-derelict drafts and ideas.",
         hero: {
             heading: "hysterical and useless club (incognito mode)",
@@ -11,7 +11,7 @@ module.exports = {
         social: [
             {
                 name: "about",
-                url: "https://flanintheface.com/@rosenkreuzer",
+                url: "https://hystericalanduseless.icu/(wless)",
       },
             {
                 name: "mastodon",
@@ -31,7 +31,7 @@ module.exports = {
       },
             {
                 name: "rss",
-                url: "https://weirdfishes.today/atom.xml",
+                url: "https://hystericalanduseless.icu/rss.xml",
       },
     ],
     },
@@ -69,5 +69,19 @@ module.exports = {
             options: {},
     },
 
+    {
+        resolve: "gatsby-source-rss-feed",
+        options: {
+          url: "https://hystericalanduseless.icu/rss.xml",
+          name: "hysterical and useless club (incognito mode)",
+          // Optional
+          // Read parser document: https://github.com/bobby-brennan/rss-parser#readme
+          parserOption: {
+            customFields: {
+              item: ['itunes:duration']
+            }
+          }
+        }
+      }    
   ],
 };
