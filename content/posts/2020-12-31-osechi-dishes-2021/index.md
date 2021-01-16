@@ -1,9 +1,9 @@
 ---
-title: Osechi 2021
+title: Japanese New Year's cuisine - 2021
 author: Moria
 date: 2021-01-01
 hero: ./images/hero.jpg
-excerpt: ok i can't use chinese here
+excerpt: All hail the holiday long weekend!
 ---
 
 ~~估计这辈子也不会再做第二次的~~<br />
